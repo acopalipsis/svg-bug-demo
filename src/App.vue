@@ -1,13 +1,14 @@
 <template>
-  <md-button><md-icon class="my-svg" md-src="/baseline-error_outline-24px.svg" /></md-button>
+  <svg-icon name="baseline-error_outline-24px"></svg-icon>
 </template>
 
 <script>
+import SvgIcon from './components/SvgIcon.vue'
 
 export default {
   name: 'app',
   components: {
-    
+    SvgIcon
   }
 }
 </script>
