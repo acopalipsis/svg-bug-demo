@@ -23,7 +23,7 @@ export default {
 
   computed: {
     iconPath() {
-      return require(`@/assets/icons/${this.name}.svg`).default.url;
+      return require(`@/assets/${this.name}.svg`).default.url;
     },
 
     className() {
